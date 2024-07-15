@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta hame="vieport" content="width=device-width, initial-scale=1.0">
+        <title>Doucument</title>
+        <link rel="stylesheet" href="gym.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@2008">
+    </head>
+
+<body>
+    <div class="container">
+        <nav> 
+            <div class="logo">
+                <h1>Fit N Fine</h1>
+            </div>
+            <ul>
+                <a href="">HOME</a>
+                <a id="members"href="#member">MEMBER</a>
+                <a id="programs"href="#program">PROGRAM</a>
+                <a id="contavts"href="#connect">CONNECT</a>
+                <button id="mainBtn">join</button>
+                </div>
+            </nav>
+
+            <div class="join">
+               <input type="text" placeholder="Enter Name" id="names"><br>
+               <input type="text" placeholder="Enter Number" id="numbers"><br>
+               <button id="join">join </button>
+            </div>
+
+            <!-- main -->
+             <div class="main">
+                <div class="mainText">
+                    <h1> Let's Take First Step </h1>
+                    <h2> 30% Off On Membership </h2>
+                    <p> Loream ipsum dolor sit amet consectetur adipisicing<br>
+                    elit.Ex rem tempore sapiente nobis ad! </p>
+                    <button> Let's Start </button>
+                </div>
+               <img src="gym1.jpg" alt>
+             </div>
+             <!-- slide -->
+              <div class="slidebar"id="member">
+                <div class="head">
+                    <h1> Fit N Fine <span> Member</span></h1>
+                </div>
+
+
+                <div class="slide">
+                    <img src="slide1.jpg"alt="">
+                    <img src="slide2.jpg"alt="">
+                    <img src="slide3.jpg"alt="">
+                    <img src="slide4.jpg"alt="">
+                    <img src="slide5.jpg"alt="">
+                    <img src="slide7.jpg"alt="">
+                    <img src="slide8.jpg"alt="">
+                    <img src="slide9.jpg"alt="">
+                    <img src="slide1.jpg"alt="">
+                    <img src="slide5.jpg"alt="">
+                </div>
+
+                <div class="btn">
+                    <button id="prev"> Prev </button>
+                    <button id="next">  Next </button>
+                </div>
+                <!-- program -->
+                 <div class="pro"id="program">
+                    <div class="head">
+                        <h1> Our <span> Programs</span></h1>
+                    </div>
+                    
+                    <div class="proCard">
+                        <img src="gym0.jpg">
+                        <h2>Dance</h2>
+                    </div>
+
+            
+                <div class="proCard">
+                    <img src="home.jpg" alt="">
+                    <h2>Cardio</h2>
+                </div>
+
+            
+            <div class="proCard">
+                <img src="gyma.jpg" alt="">
+                <h2>Heavy Workout</h2>
+            </div>
+            </div>
+    
+         
+        </div>
+     <!-- connect -->
+      <div class="connect" id="connect">
+        <div class="head">
+            <h1> Connect <span>With US</span></h1>
+        </div>
+
+        <div class="connect">
+            <input type="text" placeholder="Enter Your Name" id="name"><br>
+            <input type="text" placeholder="Enter Your Password" id="pass"><br>
+            <button id="submit">Submit </button><br>
+        </div>
+      </div>
+      <!-- footer -->
+       <div class="footer">
+        <div class="text">
+            <h2> About Us</h2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing<br>
+            elit. Debitis laboriosam quis dolores eveniet quia<br>
+            aliduid aspernatur nam possimus quis</P>
+        </div>
+        <div class="text">
+            <h2>Service</h2>
+            <p>Satisfaction</p>
+            <p>Our Service</p>
+            <p>Price</p>
+            <p>Offerdable</p>
+            <p>quality</p>
+        </div>
+
+    <div class="text">
+        <h2>Training</h2>
+        <p>Trainer</p>
+        <p>Personal</p>
+        <p>Offer</p>
+        <p>New</p>
+    </div>
+
+<div class="text">
+    <h2>Address</h2>
+    <p>Swift Road</p>
+    <p>Sector 144</p>
+    <p>Gachiwobli</p>
+    <p>Hyderabad</p>
+</div>
+
+<div class="text">
+    <h2>Contact</h2>
+    <p>Mob:-5676732876</p>
+    <p>Email:-Fitnfine143@gmail.com</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+    <script src="gym.js"></script>
+
+</body>
+</html>
+
